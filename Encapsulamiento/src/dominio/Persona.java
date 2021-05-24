@@ -29,4 +29,8 @@ public class Persona {
     public void setEliminado(boolean elimiando){
         this.eliminado = elimiando;
     }
+    public String toString(){
+        return "Nombre: "+this.getNombre()+"\nSueldo: "+this.getSueldo()
+        + ".\nEliminado: "+this.isEliminado();
+    }
 }
